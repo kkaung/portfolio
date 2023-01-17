@@ -6,7 +6,6 @@ export default function Navbar() {
     const { route } = useRouter();
 
     const homeRoute = route === '/';
-    const projectsRoute = route === '/projects';
 
     return (
         <nav className="container mx-auto py-6 flex items-center justify-between">

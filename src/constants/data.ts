@@ -13,7 +13,6 @@ export const frameworks = [
     { id: 3, name: 'NextJs' },
     { id: 4, name: 'NodeJs' },
     { id: 5, name: '.NET Core' },
-    { id: 6, name: 'Entity Framework' },
     { id: 7, name: 'Gin' },
 ];
 
