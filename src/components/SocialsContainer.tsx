@@ -18,7 +18,7 @@ export default function SocialsContainer() {
                     <Link href="">
                         <button className="px-4 flex items-center py-2 bg-gray-800 rounded-md font-semibold cursor-pointer transition hover:bg-gray-900">
                             <AiFillGithub />
-                            <span className="ml-1">Linkedin</span>
+                            <span className="ml-1">GitHub</span>
                         </button>
                     </Link>
                 </div>

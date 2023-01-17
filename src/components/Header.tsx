@@ -13,10 +13,12 @@ export default function Header() {
                 high-performance system using cutting-edge technologies.
             </p>
             <div className="mt-12 space-x-4">
-                <a className="btn-primary">👋 Contact Me</a>
+                <a className="btn-primary" href="mailto:example@gmail.com">
+                    👋 Contact Me
+                </a>
                 <a
                     className="btn-secondary"
-                    href="public/assets/files/myResume.pdf"
+                    href="https://firebasestorage.googleapis.com/v0/b/portfolio-40dfe.appspot.com/o/myResume.pdf?alt=media&token=cb7fad93-59de-4d15-8f7d-77ec15c86cd7"
                     download="kaung-resume.pdf"
                     type="application/pdf"
                 >
