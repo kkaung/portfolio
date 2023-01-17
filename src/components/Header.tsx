@@ -3,9 +3,7 @@ import React from 'react';
 export default function Header() {
     return (
         <header className="text-center mt-12 flex flex-col items-center">
-            <h1 className="text-4xl sm:text-5xl">
-                I'm <span className="font-bold">Kaung Zaw</span>
-            </h1>
+            <h1 className="text-4xl sm:text-5xl font-bold">Kaung Zaw</h1>
             <h2 className="text-2xl font-semibold my-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-600">
                 Software Developer
             </h2>
