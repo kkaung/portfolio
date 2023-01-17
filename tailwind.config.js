@@ -1,11 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
-        './pages/**/*.{js,ts,jsx,tsx}',
-        './components/**/*.{js,ts,jsx,tsx}',
+        './src/pages/**/*.{js,ts,jsx,tsx}',
+        './src/components/**/*.{js,ts,jsx,tsx}',
     ],
     theme: {
-        extend: {},
+        extend: {
+            container: {
+                padding: {
+                    DEFAULT: '1rem',
+                    lg: '8rem',
+                    xl: '10rem',
+                },
+            },
+        },
     },
     plugins: [],
 };
