@@ -23,13 +23,15 @@ export default function ProjectsSection() {
                                 <h3>{name}</h3>
                                 <div className="flex space-x-3">
                                     <Link
-                                        href=""
+                                        target="_blank"
+                                        href={demoLink}
                                         className="transition hover:text-cyan-400"
                                     >
                                         <FiExternalLink />
                                     </Link>
                                     <Link
-                                        href=""
+                                        target="_blank"
+                                        href={githubLink}
                                         className="transition hover:text-cyan-400"
                                     >
                                         <AiFillGithub />

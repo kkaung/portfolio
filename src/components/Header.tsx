@@ -18,6 +18,7 @@ export default function Header() {
                 </a>
                 <a
                     className="btn-secondary"
+                    target="_blank"
                     href="https://firebasestorage.googleapis.com/v0/b/portfolio-40dfe.appspot.com/o/myResume.pdf?alt=media&token=cb7fad93-59de-4d15-8f7d-77ec15c86cd7"
                     download="kaung-resume.pdf"
                     type="application/pdf"

@@ -42,8 +42,8 @@ export const projects = [
             'PostgreSQL',
             'Docker',
         ],
-        demoLink: '',
-        githubLink: '',
+        demoLink: 'https://feeds-nine.vercel.app',
+        githubLink: 'https://github.com/kkaung/feeds',
     },
     {
         id: 2,
@@ -51,8 +51,8 @@ export const projects = [
         description:
             'A simple chat app with ChatGPT that allows to connect to the people all over the world',
         techStacks: ['React', '.Net Core', 'SignalR', 'MongoDB', 'Docker'],
-        demoLink: '',
-        githubLink: '',
+        demoLink: 'https://chatty-pi.vercel.app',
+        githubLink: 'https://github.com/kkaung/chatty',
     },
     {
         id: 3,
@@ -60,7 +60,7 @@ export const projects = [
         description:
             'A travel app that helps users search and compare flights to find the best deals for their trips in Australia',
         techStacks: ['Angular', '.Net Core', 'SQLite', 'Docker'],
-        demoLink: '',
-        githubLink: '',
+        demoLink: 'https://mate-flight-advisor.vercel.app',
+        githubLink: 'https://github.com/kkaung/MateFlightAdvisor',
     },
 ];

@@ -9,13 +9,16 @@ export default function SocialsContainer() {
             <h1 className="text-2xl font-bold">Come find me</h1>
             <div className="mt-6  flex justify-center">
                 <div className="flex space-x-4">
-                    <Link href="">
+                    <Link
+                        href="https://www.linkedin.com/in/kaung-zaw-276b39199/"
+                        target="_blank"
+                    >
                         <button className="flex items-center px-4 py-2 bg-cyan-400 rounded-md font-semibold cursor-pointer transition hover:bg-cyan-500">
                             <AiFillLinkedin />
                             <span className="ml-1">Linkedin</span>
                         </button>
                     </Link>
-                    <Link href="">
+                    <Link href="https://github.com/kkaung" target="_blank">
                         <button className="px-4 flex items-center py-2 bg-gray-800 rounded-md font-semibold cursor-pointer transition hover:bg-gray-900">
                             <AiFillGithub />
                             <span className="ml-1">GitHub</span>
