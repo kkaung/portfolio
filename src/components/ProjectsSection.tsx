@@ -30,7 +30,7 @@ export default function ProjectsSection() {
                                         <FiExternalLink />
                                     </Link>
                                     <Link
-                                        target="_blank"
+                                    target="_blank"
                                         href={githubLink}
                                         className="transition hover:text-cyan-400"
                                     >
