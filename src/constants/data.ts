@@ -11,14 +11,17 @@ export const frameworks = [
     { id: 1, name: 'React' },
     { id: 2, name: 'Angular' },
     { id: 3, name: 'NextJs' },
+    { id: 3, name: 'React Native' },
     { id: 4, name: 'NodeJs' },
-    { id: 5, name: '.NET Core' },
-    { id: 7, name: 'Gin' },
+    { id: 5, name: '.NET' },
+    { id: 6, name: '.NET Core' },
+    { id: 7, name: 'NestJs' },
 ];
 
 export const databases = [
     { id: 1, name: 'MySQL' },
-    { id: 2, name: 'MongoDB' },
+    { id: 2, name: 'PostgreSQL' },
+    { id: 3, name: 'MongoDB' },
 ];
 
 export const tools = [
