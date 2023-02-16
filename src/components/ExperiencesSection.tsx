@@ -11,7 +11,7 @@ export default function ExperiencesSection() {
                 <div className="flex justify-between w-full">
                     <div>
                         <div>
-                            CB Bank
+                            CB Bank {" "}
                             <Link
                                 target="_blank"
                                 href="https://www.cbbank.com.mm/en"
