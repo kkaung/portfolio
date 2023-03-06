@@ -11,7 +11,7 @@ export default function ExperiencesSection() {
                 <div className="flex justify-between w-full">
                     <div>
                         <div>
-                            CB Bank {" "}
+                            CB Bank{' '}
                             <Link
                                 target="_blank"
                                 href="https://www.cbbank.com.mm/en"
@@ -23,7 +23,7 @@ export default function ExperiencesSection() {
                             Full Stack Developer
                         </div>
                     </div>
-                    <div className="text-sm">Jan 2022 - Jun 2022</div>
+                    <div className="text-sm">Jan 2022 - Dec 2022</div>
                 </div>
             </div>
         </section>
